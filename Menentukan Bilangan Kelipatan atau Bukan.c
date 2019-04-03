@@ -4,9 +4,9 @@
 main()
 {
  int n1, n2;
- printf("Masukan bilangan ke-1 : "); scanf("%i", &amp;n1);
- printf("Masukan bilangan ke-2 : "); scanf("%i", &amp;n2);
- if(n1&gt;=n2&amp;&amp;n1&gt;0)
+ printf("Masukan bilangan ke-1 : "); scanf("%i", &n1);
+ printf("Masukan bilangan ke-2 : "); scanf("%i", &n2);
+ if(n1<=n2&&n1>0)
   {
    if(n2==0||n1%n2!=0)
     {
